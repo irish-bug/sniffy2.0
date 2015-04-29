@@ -1,46 +1,51 @@
-sniffy
+sniffy2.0
 ======
 
-TCP pcap parser
+pcap parser
 
 ======
 
     ############################################################ 
-	                    WElCOME TO SNIFFY 
+	                    WElCOME TO SNIFFY 2.0
 	############################################################ 
 	#                                                          # 
-	# Sniffy is a TCP packet sniffer and quite easy to use.    # 
-	# Just activate sniffy and pass it the pcap file you       # 
-	# would like to extract TCP packet information from        # 
-	# Like this:                                               # 
+	# Sniffy 2.0 is a packet sniffer and quite easy to use.    # 
+	# Just run  ./sniffy2.0 from the command line              # 
+	# choose the pcap you would like to extract info           # 
+	# and then choose the protocol of the packets you'd like   # 
+	# to see information about                                 # 
 	#                                                          # 
-	#               ./sniffy mypcap.pcap                       # 
 	#                                                          #  
 	# Sniffy will extract all information available from all   # 
-	# TCP packets inside of your pcap, including packet data   # 
-	# if available and will write all of the data into a file  # 
+	# packets of that protocol inside of your pcap,            #
+	# including packet data if available and will write all    #
+	# of the data to the screen and then into a file           # 
 	# named sniffy_output.txt in your current directory.       # 
 	#                                                          #  
 	############################################################ 
-	 Sniffy was written and is maintained by Shane Rogers using 
-	 Python and the Scapy library 2014   shane@shanerogers.info    
+	 Sniffy2.0  was written and is maintained by Shane Rogers  
+	 Python and the Scapy library 2015   shane@shanerogers.info    
 	############################################################ 
 
 
 	NOTE: Please make sure you have Python and Scapy installed 
 	before using Sniffy.  If you see the following error:
 		Traceback (most recent call last):
- 		File "./sniffy", line 16, in <module>
+ 		File "./sniffy2.0", line *, in <module>
  		from scapy.all import *
  		ImportError: No module named scapy.all
 	This means that you need to install Scapy. 
 
-	Instructions for installing Scapy can be found here:
+	On Debian based systems you can install scapy by running
+	sudo apt-get install scapy
+
+	Other instructions for installing Scapy can be found here:
 
      	http://www.secdev.org/projects/scapy/doc/installation.html#debian-ubuntu
+     	
 
 
-	Copyright 2014 Shane Rogers
+	Copyright 2015 Shane Rogers
 
    	Licensed under the Apache License, Version 2.0 (the "License");
    	you may not use this file except in compliance with the License.
