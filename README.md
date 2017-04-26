@@ -24,7 +24,7 @@ pcap parser
 	#                                                          #  
 	############################################################ 
 	 Sniffy2.0  was written and is maintained by Shane Rogers  
-	 Python and the Scapy library 2015   shane@shanerogers.info    
+	 Python and the Scapy library 2017  shane@shanerogers.info    
 	############################################################ 
 
 
@@ -45,7 +45,7 @@ pcap parser
      	
 
 
-	Copyright 2015 Shane Rogers
+	Copyright 2017 Shane Rogers
 
    	Licensed under the Apache License, Version 2.0 (the "License");
    	you may not use this file except in compliance with the License.
