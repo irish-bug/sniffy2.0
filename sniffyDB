@@ -1,9 +1,8 @@
 #! /usr/bin/python
 # Sniffy by Shane Rogers
-# For CS 242
-# April 2015
 # SEE README FILE FOR MORE INFO
 #used to silence unnecessary warnings
+#Unused at this time. Can be used to export to a database
 import logging
 logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
 
