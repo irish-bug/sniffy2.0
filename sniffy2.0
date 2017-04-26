@@ -1,7 +1,7 @@
 #! /usr/bin/python
 # Sniffy by Shane Rogers
-# For CS 242
-# April 2015
+# For DF2
+# April 2017
 # SEE README FILE FOR MORE INFO
 #used to silence unnecessary warnings
 import logging
