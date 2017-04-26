@@ -6,6 +6,7 @@
     <patterns>
       <pattern>*.pcap</pattern>
       <pattern>*.PCAP</pattern>
+      <pattern>*.pcapng</pattern>
     </patterns>
   </object>
   <object class="GtkWindow" id="window_main">
